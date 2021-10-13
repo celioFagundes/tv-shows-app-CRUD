@@ -1,0 +1,40 @@
+{
+  "series": {
+    "1633617886071": {
+      "name": "La casa de papel",
+      "status": "watched",
+      "genre_id": 1633629582648,
+      "poster": "//image.tmdb.org/t/p/original/yVUAfbrP5HDJugXraB7KQS0yz6Z.jpg",
+      "background": "//image.tmdb.org/t/p/original/gFZriCkpJYsApPZEF3jhxL4yLzG.jpg"
+    },
+    "1633627408610": {
+      "name": "Vikings",
+      "status": "watched",
+      "genre_id": 1633629582648,
+      "poster": "//image.tmdb.org/t/p/original/oktTNFM8PzdseiK1X0E0XhB6LvP.jpg",
+      "background": "//image.tmdb.org/t/p/original/aq2yEMgRQBPfRkrO0Repo2qhUAT.jpg"
+    },
+    "1633627571723": {
+      "name": "Game of Thrones",
+      "status": "watched",
+      "genre_id": 1634150852578,
+      "poster": "//image.tmdb.org/t/p/original/9ih9MhTx0Vwy7A1EoUdEqlaX9JD.jpg",
+      "background": "//image.tmdb.org/t/p/original/suopoADq0k8YZr4dQXcU6pToj6s.jpg"
+    }
+  },
+  "genres": {
+    "1633629351097": {
+      "name": "Horror"
+    },
+    "1633629582648": {
+      "name": "Ação"
+    },
+    "1633629587393": {
+      "name": "Comédia"
+    },
+    "1634150852578": {
+      "name": "Drama"
+    }
+  },
+  "count": 0
+}
