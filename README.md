@@ -1,6 +1,5 @@
 # TV-shows List CRUD
-
-<img src="https://user-images.githubusercontent.com/77676047/134990760-4910871b-e03f-48c6-8474-09daa20bc9f3.jpeg" >
+![localhost_3000_series_1633617886071 (1)](https://user-images.githubusercontent.com/77676047/137196402-00c27644-cf66-43c1-b27b-0cb9d64db05e.png)
 
 ### About
   Project from Devpleno ReactJS course
