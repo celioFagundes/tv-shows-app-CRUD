@@ -1,0 +1,14 @@
+
+.background {
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/tv-shows.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    
+}
+.title{
+    font-size: 50px;
+    
+}

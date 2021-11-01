@@ -1,8 +1,8 @@
 import React ,{useState,useEffect} from 'react'
 import axios from 'axios'
-import { Container, Table, Alert ,Button} from 'react-bootstrap'
+import { Container, Table, Alert ,Button,Row,Col} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-
+import Header from '../Header/Header'
 
 
 function Genres() {
@@ -30,40 +30,37 @@ function Genres() {
             <tr key = {item.id}>
                 <td>{item.name}</td>
                 <td>
-                    <Button onClick ={() => deleteGenre(item.id)} variant ='danger' className = 'mx-2'>Delete</Button>
-                    <Button as ={Link} to = {'/genres/' + item.id} variant ='warning'>Edit</Button>
+                    <Button onClick ={() => deleteGenre(item.id)} variant ='outline-danger' className = 'mx-2' size = {'sm'}>Delete</Button>
+                    <Button as ={Link} to = {'/genres/' + item.id} variant ='outline-warning' size = {'sm'}>Edit</Button>
                 </td>
             </tr>
         )
     }
 
-    if(data.length === 0){
-        return(
-            <Container>
-                <h1>Genres</h1>
-                <Button as ={Link} to = '/genres/new' variant = 'info' className = 'my-1'> New Genre</Button>
-                <Alert variant ='warning'>
-                    No genres created
-                </Alert>
-            </Container>
-        )
-    }
+    console.log(data.length)
     return (
-        <Container>
-            <h1>Genres</h1>
-            <Button as ={Link} to = '/genres/new' variant = 'info' className = 'my-1'> New Genre</Button>
-            <Table striped bordered hover variant ='dark'>
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {data.map(renderRow)}
-                </tbody>
-            </Table>
-        </Container>
+        <>
+            <Header title ='Genres'/>
+            <Container  style = {{paddingTop:'65px'}}>
+                <Button as ={Link} to = '/genres/new' variant = 'outline-info' className = 'my-3' size = {'sm'}> New Genre</Button>
+                {!data.length == 0 ?
+                <Table variant ='dark' className ='align-middle'>
+                    <thead >
+                        <tr>
+                            <th>Name</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody >
+                        
+                        {data.map(renderRow) }
+                    </tbody>
+                </Table>
+                : <Alert variant ='outline-warning'>
+                No genres created
+                </Alert>}
+            </Container>
+        </>
     )
 }
 

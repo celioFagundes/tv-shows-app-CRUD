@@ -1,39 +1,62 @@
 {
   "series": {
-    "1633617886071": {
-      "name": "La casa de papel",
-      "status": "watched",
-      "genre_id": 1633629582648,
-      "poster": "//image.tmdb.org/t/p/original/yVUAfbrP5HDJugXraB7KQS0yz6Z.jpg",
-      "background": "//image.tmdb.org/t/p/original/gFZriCkpJYsApPZEF3jhxL4yLzG.jpg"
-    },
-    "1633627408610": {
+    "1635459343306": {
       "name": "Vikings",
-      "status": "watched",
-      "genre_id": 1633629582648,
+      "status": "to_watch",
+      "genre_id": 1635549737531,
       "poster": "//image.tmdb.org/t/p/original/oktTNFM8PzdseiK1X0E0XhB6LvP.jpg",
       "background": "//image.tmdb.org/t/p/original/aq2yEMgRQBPfRkrO0Repo2qhUAT.jpg"
     },
-    "1633627571723": {
+    "1635459578177": {
+      "name": "Round Six",
+      "genre_id": 1635535806516,
+      "poster": "//image.tmdb.org/t/p/original/6gcHdboppvplmBWxvROc96NJnmm.jpg",
+      "background": "//image.tmdb.org/t/p/original/qw3J9cNeLioOLoR68WX7z79aCdK.jpg"
+    },
+    "1635462083355": {
+      "name": "Doom Patrol",
+      "poster": "//image.tmdb.org/t/p/original/yaa0IrT3AUCvkQAVXPwlhbJAlsg.jpg",
+      "background": "//image.tmdb.org/t/p/original/sAzw6I1G9JUxm86KokIDdQeWtaq.jpg"
+    },
+    "1635547206107": {
       "name": "Game of Thrones",
-      "status": "watched",
-      "genre_id": 1634150852578,
-      "poster": "//image.tmdb.org/t/p/original/9ih9MhTx0Vwy7A1EoUdEqlaX9JD.jpg",
+      "poster": "//image.tmdb.org/t/p/original/3pLLMbM33SBGrade4TuahCP1sdJ.jpg",
       "background": "//image.tmdb.org/t/p/original/suopoADq0k8YZr4dQXcU6pToj6s.jpg"
+    },
+    "1635547233051": {
+      "name": "X-files",
+      "status": "watched",
+      "genre_id": null,
+      "poster": "//image.tmdb.org/t/p/original/p0uhiJmkzlJsvTyn0KKiLwrwGwA.jpg",
+      "background": "//image.tmdb.org/t/p/original/1vpmGGDaW4aUGKCfQTV0ygAPtBu.jpg"
+    },
+    "1635547245449": {
+      "name": "West World",
+      "poster": "//image.tmdb.org/t/p/original/5PraFOIOtaHbB7ZZjffh9SYgTM7.jpg",
+      "background": "//image.tmdb.org/t/p/original/1smZ8NV0jMaJuobzMwXE8sG3ZSz.jpg"
+    },
+    "1635547269976": {
+      "name": "Barry",
+      "poster": "//image.tmdb.org/t/p/original/lh3mLjpQQoEFbzaxBBGOp1RwB63.jpg",
+      "background": "//image.tmdb.org/t/p/original/7GXoUX9a5ZupwUnqnJthyal79mN.jpg"
+    },
+    "1635547282161": {
+      "name": "Riverdale",
+      "poster": "//image.tmdb.org/t/p/original/6zBWSuYW3Ps1nTfeMS8siS4KUaA.jpg",
+      "background": "//image.tmdb.org/t/p/original/qZtAf4Z1lazGQoYVXiHOrvLr5lI.jpg"
+    },
+    "1635547290432": {
+      "name": "The Flash",
+      "poster": "//image.tmdb.org/t/p/original/lJA2RCMfsWoskqlQhXPSLFQGXEJ.jpg",
+      "background": "//image.tmdb.org/t/p/original/eyG9srihv68ScRdEbJZj66WT4O0.jpg"
     }
   },
   "genres": {
-    "1633629351097": {
+    "1635536180526": {
       "name": "Horror"
     },
-    "1633629582648": {
-      "name": "Ação"
-    },
-    "1633629587393": {
-      "name": "Comédia"
-    },
-    "1634150852578": {
-      "name": "Drama"
+    "1635549737531": {
+      "name": "Terror"
     }
   },
   "count": 0

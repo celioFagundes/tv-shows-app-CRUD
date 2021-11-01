@@ -1,8 +1,8 @@
 import React , {useState,useEffect} from 'react'
 import { Container ,Form, Button} from 'react-bootstrap'
 import axios from 'axios'
-import { Redirect } from 'react-router'
-
+import { Redirect ,Link} from 'react-router-dom'
+import Header from '../Header/Header'
 function EditGenre({match}) {
 
     const [name,setName] = useState('')
@@ -42,18 +42,23 @@ function EditGenre({match}) {
 
     
     return (
-        <Container>
-            <h1>Edit Genre</h1>
+        <>
+        <Header title ='Edit Genre'/>
+        <Container style = {{paddingTop:'65px'}} >
             <Form onSubmit = {handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Name</Form.Label>
                     <Form.Control type="Text" placeholder="Genre Name" value = {name} onChange = {handleChange} />
                 </Form.Group>
-                <Button variant="primary" type="submit" onClick ={save}>
+                <Button variant="outline-info" type="submit" onClick ={save} size = {'sm'}>
                     Save
+                </Button>
+                <Button as ={Link} to = '/genres' variant = 'outline-danger' size = {'sm'} className = 'mx-3'>
+                    Cancel
                 </Button>
             </Form>
         </Container>
+        </>
     )
 }
 export default EditGenre
