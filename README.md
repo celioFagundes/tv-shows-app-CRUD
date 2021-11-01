@@ -1,5 +1,11 @@
 # TV-shows List CRUD
-![localhost_3000_series_1633617886071 (1)](https://user-images.githubusercontent.com/77676047/137196402-00c27644-cf66-43c1-b27b-0cb9d64db05e.png)
+![tv_shows_home](https://user-images.githubusercontent.com/77676047/139689839-52b92df3-f259-4506-981a-f2400f552d94.png)
+
+![tv_shows_series](https://user-images.githubusercontent.com/77676047/139689895-9cadeb09-5228-4059-9c43-bbd3644f1b1a.png)
+
+![localhost_3000_series_1635459578177](https://user-images.githubusercontent.com/77676047/139690522-6b54a8f3-85cc-481f-aed4-ad38bde3e5aa.png)
+
+![tv-shows_genres](https://user-images.githubusercontent.com/77676047/139690025-98f2ee91-bf34-4b9a-9089-cd46ee26c5c7.png)
 
 ### About
   Project from Devpleno ReactJS course
